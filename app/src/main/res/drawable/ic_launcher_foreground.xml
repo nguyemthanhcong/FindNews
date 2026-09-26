@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="0"
+        android:translateY="0">
+        <!-- Newspaper back fold -->
+        <path
+            android:fillColor="#94A3B8"
+            android:pathData="M30,30 L72,30 C74.2,30 76,31.8 76,34 L76,68 L30,68 Z" />
+        
+        <!-- Newspaper front sheet -->
+        <path
+            android:fillColor="#F8FAFC"
+            android:pathData="M26,34 C26,32.3 27.3,31 29,31 L69,31 C70.7,31 72,32.3 72,34 L72,74 C72,75.7 70.7,77 69,77 L29,77 C27.3,77 26,75.7 26,74 Z" />
+        
+        <!-- Newspaper header bar -->
+        <path
+            android:fillColor="#38BDF8"
+            android:pathData="M32,38 L66,38 C66.6,38 67,38.4 67,39 L67,43 C67,43.6 66.6,44 66,44 L32,44 C31.4,44 31,43.6 31,43 L31,39 C31,38.4 31.4,38 32,38 Z" />
+
+        <!-- Newspaper article lines -->
+        <path
+            android:fillColor="#64748B"
+            android:pathData="M32,48 L56,48 C56.6,48 57,48.4 57,49 C57,49.6 56.6,50 56,50 L32,50 C31.4,50 31,49.6 31,49 C31,48.4 31.4,48 32,48 Z" />
+        <path
+            android:fillColor="#94A3B8"
+            android:pathData="M32,54 L52,54 C52.6,54 53,54.4 53,55 C53,55.6 52.6,56 52,56 L32,56 C31.4,56 31,55.6 31,55 C31,54.4 31.4,54 32,54 Z" />
+        <path
+            android:fillColor="#94A3B8"
+            android:pathData="M32,60 L48,60 C48.6,60 49,60.4 49,61 C49,61.6 48.6,62 48,62 L32,62 C31.4,62 31,61.6 31,61 C31,60.4 31.4,60 32,60 Z" />
+
+        <!-- Scanner / Magnifying Glass & Radar Target -->
+        <!-- Outer lens glow circle -->
+        <path
+            android:fillColor="#1E293B"
+            android:pathData="M66,66 m-17,0 a17,17 0 1,0 34,0 a17,17 0 1,0 -34,0" />
+        <path
+            android:fillColor="#0284C7"
+            android:pathData="M66,66 m-14,0 a14,14 0 1,0 28,0 a14,14 0 1,0 -28,0" />
+        <path
+            android:fillColor="#38BDF8"
+            android:pathData="M66,66 m-11,0 a11,11 0 1,0 22,0 a11,11 0 1,0 -22,0" />
+        
+        <!-- Radar reticle crosshairs inside glass -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M65,58 L67,58 L67,63 L72,63 L72,65 L67,65 L67,70 L65,70 L65,65 L60,65 L60,63 L65,63 Z" />
+
+        <!-- Handle of scanner / magnifying glass -->
+        <path
+            android:fillColor="#F59E0B"
+            android:pathData="M76,73 L84,81 C85.6,82.6 85.6,85.1 84,86.7 C82.4,88.3 79.9,88.3 78.3,86.7 L70.3,78.7 L76,73 Z" />
+        <path
+            android:fillColor="#FBBF24"
+            android:pathData="M78.5,75.5 L83,80 C84,81 84,82.5 83,83.5 L81.5,82 C81,81 80,80 79,79.5 L78.5,75.5 Z" />
+    </group>
+</vector>

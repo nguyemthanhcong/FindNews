@@ -1,0 +1,6 @@
+{
+  "name": "Quét Báo",
+  "description": "Công cụ quét và tổng hợp bài viết từ toàn bộ các cơ quan báo chí theo chủ đề cụ thể (tiêu đề, mô tả, ngày đăng, báo đăng)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
